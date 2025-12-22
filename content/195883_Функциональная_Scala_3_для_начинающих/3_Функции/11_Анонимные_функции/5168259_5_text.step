@@ -1,0 +1,21 @@
+{
+  "step_id" : 5168259,
+  "lesson_id" : 1228703,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Операции функционального значения</h1>\n\n<p>Как и у других значений, у функциональных значений есть свои <strong>операции</strong>. Перечень этих операций зависит от <strong>количества параметров</strong> у функционального типа.</p>\n\n<p>У функциональных типов с <strong>одним</strong> входным параметром есть операции:</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"height:263px; width:939px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:20%;\"><strong>Имя операции</strong></td>\n\t\t\t<td style=\"text-align:center;\"><strong>Описание метода</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>apply(x)</td>\n\t\t\t<td>Вызывает вычисление функции с использованием некого аргумента <strong>x </strong>с типом входного параметра<strong>. </strong>В результате получаем значение выходного типа.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(x)</td>\n\t\t\t<td>\n\t\t\t<p>Вызывает вычисление функции с использованием некого аргумента <strong>x</strong> с типом входного параметра<strong>.</strong> Аналогичен<strong> </strong>методу apply(x).</p>\n\n\t\t\t<p>Т.о. имя apply можно не указывать, что делает форму вызова функции похожей на математическую форму.</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>compose(x =&gt; y)</td>\n\t\t\t<td>Создает композицию текущей функции и функции x =&gt; y  в новую функцию, причем функция аргумент вычисляется первой.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>andThen(x =&gt; y)</td>\n\t\t\t<td>Создает композицию текущей функции и функции x =&gt; y  в новую функцию, причем функция аргумент вычисляется последней.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>toString()</td>\n\t\t\t<td>Получаем строку \"&lt;function1&gt;\"</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p> </p>\n\n<p>У функциональных типов с <strong>несколькими </strong>входными параметром есть операции:</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"height:263px; width:939px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:20%;\"><strong>Имя операции</strong></td>\n\t\t\t<td style=\"text-align:center;\"><strong>Описание метода</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>apply(x1, ... xN)</td>\n\t\t\t<td>Вызывает вычисление функции с использованием неких аргументов <strong>x1, ... xN </strong>с соответствующими типами входных параметров<strong>. </strong>В результате получаем значение выходного типа.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(x1, ... xN)</td>\n\t\t\t<td>\n\t\t\t<p>Вызывает вычисление функции с использованием неких аргументов <strong>x1, ... xN </strong>с соответствующими типами входных параметров<strong>.</strong> Аналогичен<strong> </strong>методу apply(x).</p>\n\n\t\t\t<p>Т.е. имя apply можно не указывать, что делает форму вызова функции похожей на математическую форму.</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>curried</td>\n\t\t\t<td>Создает каррированую версию функции.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>tupled</td>\n\t\t\t<td>Создает аналогичную функцию с кортежем вместо списка параметров</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>toString()</td>\n\t\t\t<td>Получаем строку \"&lt;functionN&gt;\" N - количество параметров функции</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:16.7191267"
+}

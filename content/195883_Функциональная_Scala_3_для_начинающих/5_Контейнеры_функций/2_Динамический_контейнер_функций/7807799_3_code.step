@@ -1,0 +1,47 @@
+{
+  "step_id" : 7807799,
+  "lesson_id" : 1880282,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Определите тип динамического контейнера&nbsp;<code>StringFormatter</code>, который имеет состояние&nbsp;<code>prefix: String, suffix: String</code></h3>\n\n<h3>В контейнере определите функции:</h3>\n\n<ol>\n\t<li>\n\t<h3><code>wrap(text: String): String</code> — добавляет <code>prefix</code> в начало и <code>suffix</code> в конец текста.</h3>\n\t</li>\n\t<li>\n\t<h3><code>truncate(text: String, maxLength: Int): String</code> — обрезает текст до <code>maxLength</code> символов (если текст длиннее), и добавляет <code>prefix</code> и <code>suffix</code>.</h3>\n\t</li>\n\t<li>\n\t<h3><code>format(text: String, isUpper: Boolean): String</code> — если <code>isUpper&nbsp;= true</code>, возвращает текст в верхнем регистре, иначе в нижнем, и добавляет <code>prefix</code> и <code>suffix</code>.</h3>\n\t</li>\n</ol>\n\n<h3>Создайте контейнер с именем&nbsp;<code>formatter</code>&nbsp;и&nbsp; с <code>состоянием prefix = \"[\"</code> и <code>suffix = \"]\"</code></h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// здесь определение контейнера\n\nval res1 = formatter.wrap(arg1) \nval res2 = formatter.truncate(arg1, arg2)\nval res3 = formatter.format(arg1, arg3)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 5
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Scala 2 True\n",
+          "[Scala] [Sc] [SCALA]\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:38.9469774"
+}

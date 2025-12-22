@@ -1,0 +1,47 @@
+{
+  "step_id" : 5178914,
+  "lesson_id" : 1245568,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Определите именованную функцию с названием<span style=\"color: #ff4363;\"> </span><strong><span style=\"color: #ff4363;\">inc</span> </strong>и параметром <span style=\"color: #ff4363;\">param</span> типа <code>Long</code>, и выходным значением типа<code>Double</code>. Функция должна выполнять наращивание значения параметра на единицу.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// здесь должно быть определение функции"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "1\n",
+          "2.0\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:29.11744"
+}

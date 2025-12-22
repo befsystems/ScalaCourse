@@ -1,0 +1,47 @@
+{
+  "step_id" : 7865261,
+  "lesson_id" : 1880282,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Добавьте определение подменного контейнера&nbsp;<span style=\"color:#ff4363;\">SilentLogger</span>, который будет логировать <span style=\"color:#ff4363;\">только </span>обработку ошибок, как в контейнере <span style=\"color:#ff4363;\">Logger</span>.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "class Logger(val prefix: String):\n  def log(message: String): Unit = \n    println(s\"[$prefix] $message\")\n\n  def logError(message: String): Unit =\n    println(s\"[$prefix] ERROR: $message\")\n\nclass DataProcessor(val logger: Logger, val dataSource: String):\n  def processData(): String =\n    logger.log(\"Starting data processing\")\n    logger.log(s\"Reading from: $dataSource\")\n\n    // Имитация обработки данных\n    val result = s\"Processed data from $dataSource\"\n\n    logger.log(\"Data processing completed\")\n    result\n\n  def handleError(error: String): Unit =\n    logger.logError(s\"Processing failed: $error\")\n\n// здесь определение подменного контейнера SilentLogger\n\nval processor = new DataProcessor(\n  new SilentLogger(\"MAIN\"), \n  \"database.db\"\n) \nprocessor.processData()\nprocessor.handleError(arg1)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "crash\n",
+          "[MAIN] ERROR: Processing failed: crash\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:38.9578896"
+}

@@ -1,0 +1,21 @@
+{
+  "step_id" : 5102381,
+  "lesson_id" : 1221094,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2 style=\"text-align:center;\">Арифметические операции типов Int и Long</h2>\n\n<h3>Задание:</h3>\n\n<p>Введите правильный ответ операции и укажите тип ответа.</p>\n\n<p>Например:  <strong>4 Int</strong> или <strong>55 Long </strong>или<strong> Int.MinValue</strong>.</p>\n\n<p>Если операция не может быть выполнена, то в ответе укажите слово <strong>Ошибка</strong></p>\n\n<div class=\"notranslate\" style=\"\"> </div>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:06.3510741"
+}

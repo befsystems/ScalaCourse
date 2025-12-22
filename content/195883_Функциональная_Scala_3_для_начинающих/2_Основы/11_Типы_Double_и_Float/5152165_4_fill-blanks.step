@@ -1,0 +1,21 @@
+{
+  "step_id" : 5152165,
+  "lesson_id" : 1230060,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2 style=\"text-align: center;\">Арифметические операции типов Double и Float в операторном стиле</h2>\n\n<h3>Задание:</h3>\n\n<p>Введите правильный ответ операции и укажите тип ответа.</p>\n\n<p>Например:  <strong>4.2 Double </strong>или <strong>5.0 Float</strong> или <strong>NaN</strong> или <strong>Infinity</strong></p>\n\n<div class=\"notranslate\" style=\"\"> </div>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:05.354195"
+}

@@ -1,0 +1,47 @@
+{
+  "step_id" : 5801047,
+  "lesson_id" : 1301870,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Исследуйте математическую функцию <span style=\"color: #ff4363;\">Math.sqrt</span> - вычисление квадратного корня для типа Double. Вводите свое тестовое значения в поле <strong>Test input</strong>, и нажмите кнопку <strong>Запустить код</strong>.</h3>\n\n<h3>Есть подозрение, что данная функция является частично определенной. При подтверждении подозрений,  переделайте её в тотальную функцию, используя специальные значения. Если нет, то все оставьте как есть.</h3>\n\n<h3>Будет проведена автоматическая проверка на тотальность данной функции.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val res = Math.sqrt(arg) // Тут реализация"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 8
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "4\n",
+          "2.0\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:25.0295847"
+}

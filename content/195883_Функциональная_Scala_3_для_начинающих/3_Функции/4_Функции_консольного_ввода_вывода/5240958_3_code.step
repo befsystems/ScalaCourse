@@ -1,0 +1,47 @@
+{
+  "step_id" : 5240958,
+  "lesson_id" : 1259987,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Считайте из консоли 5 символов построчно, и выведите эти символы в одну строку в консоль.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// код должен быть здесь"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Н\ne\nl\nl\no",
+          "Нello\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:32.1489407"
+}

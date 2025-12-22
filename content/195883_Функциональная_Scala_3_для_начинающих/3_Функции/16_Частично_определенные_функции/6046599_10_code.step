@@ -1,0 +1,47 @@
+{
+  "step_id" : 6046599,
+  "lesson_id" : 1301870,
+  "position" : 10,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте две PartialFunction:</h3>\n\n<ol>\n\t<li>\n\t<h3><code>negateOdd: PartialFunction[Int, Int]</code> — умножает нечетные числа на <code>-1</code>.</h3>\n\t</li>\n\t<li>\n\t<h3><code>halfPositive: PartialFunction[Int, Int]</code> — делит положительные числа на <code>2</code>.</h3>\n\t</li>\n</ol>\n\n<h3>Сделайте <span style=\"color: #ff4363;\">композицию</span> этих функций в приведенном порядке, и найдите область определения полученной функции. На основании области определения, удалите вызовы функции с аргументами вне области определения, чтобы не получать ошибок.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val negateOdd: PartialFunction[Int, Int] = \n  ??? // здесь реализация\n\nval halfPositive: PartialFunction[Int, Int] = \n  ??? // здесь реализация\n\nval composedFunction = ???  // здесь композиция функций\n\n// Удалите вызовы функций, которые вызовут ошибку    \nprint(composedFunction(-4)) \nprint(composedFunction(-3)) \nprint(composedFunction(-2))\nprint(composedFunction(-1))\nprint(composedFunction(0)) \nprint(composedFunction(1))\nprint(composedFunction(2)) \nprint(composedFunction(3))\nprint(composedFunction(4))"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "10\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:25.0563661"
+}

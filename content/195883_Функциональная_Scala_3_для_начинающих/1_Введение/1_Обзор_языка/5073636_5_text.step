@@ -1,0 +1,21 @@
+{
+  "step_id" : 5073636,
+  "lesson_id" : 1221090,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1>Литература</h1>\n\n<ul>\n\t<li><strong>Scala. Профессиональное программирование</strong>. Одерски М., Спун Л., Веннерс Б. 5-е изд. — СПб.: Питер, 2022.</li>\n\t<li><strong>Programming Scala</strong> by Dean Wampler, Published by O’Reilly Media, Inc., 2021: Third Edition</li>\n\t<li><strong>Scala Cookbook</strong> by Alvin Alexander, Published by O’Reilly Media, Inc., 2021: Second Edition</li>\n\t<li><strong>Functional Programming, Simplified</strong>. 2017 Alvin J. Alexander</li>\n\t<li><strong>Functional Programming in Scala</strong>. PAUL CHIUSANO, 2015 by Manning Publications Co.</li>\n\t<li><strong>Введение в рекурсивное программирование.</strong> Мануэль Рубио-Санчес - ДМК Пресс, 2019<br style=\"font-variant: normal; text-align: -webkit-auto;\">\n\t </li>\n</ul>\n\n<p> </p>\n\n<h1>Полезные интернет ресурсы</h1>\n\n<p><a class=\"external autonumber\" href=\"https://docs.scala-lang.org/ru/tour/tour-of-scala.html\" rel=\"nofollow noopener noreferrer\">Scala - тур</a> на scala-lang.org</p>\n\n<p><a class=\"external autonumber\" href=\"https://docs.scala-lang.org/ru/scala3/book/introduction.html\" rel=\"nofollow noopener noreferrer\">Scala-book</a> на scala-lang.org</p>\n\n<p><a class=\"external autonumber\" href=\"https://scala-lang.org/files/archive/spec/2.13/\" rel=\"nofollow noopener noreferrer\">Scala Language Specification</a> (англ.)</p>\n\n<p> </p>\n\n<p><a href=\"https://t.me/scala_any/454\" rel=\"noopener noreferrer nofollow\">Scala For Anyone</a> - телеграмм канал (рус.)</p>\n\n<p><a href=\"https://t.me/scala_jobs\" rel=\"noopener noreferrer nofollow\">Scala Jobs</a> - телеграмм канал (рус.)</p>\n\n<p><a href=\"https://t.me/scala_ru\" rel=\"noopener noreferrer nofollow\">Scala User Group</a> - телеграмм канал (рус.)</p>\n\n<p> </p>\n\n<p><a href=\"https://stackoverflow.com/\" rel=\"noopener noreferrer nofollow\">Stack Overflow</a> - популярный форум вопросов-ответов программистов.</p>\n\n<p><a href=\"https://scastie.scala-lang.org/\" rel=\"noopener noreferrer nofollow\">Scastie</a> - Интерактивная игровая площадка для Scala</p>\n\n<p> </p>\n\n<p><a class=\"external autonumber\" href=\"https://superruzafa.github.io/visual-scala-reference/\" rel=\"nofollow noopener noreferrer\">Визуальный справочник методов структур основной библиотеки</a></p>\n\n<p><a class=\"external autonumber\" href=\"https://www.baeldung.com/scala/category/scala-basics\" rel=\"nofollow noopener noreferrer\">Набор статей по элементам Scala</a> .(англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://www.baeldung.com/scala/category/libraries\" rel=\"nofollow noopener noreferrer\">Набор статей по библиотекам Scala</a>(англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://www.baeldung.com/scala/category/functional-programming\" rel=\"nofollow noopener noreferrer\">Набор статей по функциональным практикам в Scala</a>(англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://www.baeldung.com/scala/category/scala-collections\" rel=\"nofollow noopener noreferrer\">Набор статей по коллекциям в Scala</a>(англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://www.baeldung.com/scala/category/scala-concurrency\" rel=\"nofollow noopener noreferrer\">Набор статей по конкуренции в Scala</a> (англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://www.youtube.com/rockthejvm\" rel=\"nofollow noopener noreferrer\">Видео от RockTheJVM</a> (англ.)</p>\n\n<p><a class=\"external autonumber\" href=\"https://blog.rockthejvm.com/\" rel=\"nofollow noopener noreferrer\">Статьи от RockTheJVM</a> (англ.)</p>\n\n<p><br>\n </p>\n\n<div class=\"notranslate\" style=\"\"> </div>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:20:58.0548094"
+}

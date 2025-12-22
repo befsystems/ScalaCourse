@@ -1,0 +1,47 @@
+{
+  "step_id" : 8209297,
+  "lesson_id" : 1941243,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Декомпозируйте кортеж (разложите его по отдельным указанным значениям)</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val address = (\"USA\",\"Anytown\",\"NY 12345\",\"Main Street\",123)\n\n// Нужны значения со следующими названиями - country, city, street, building     \n\n// Здесь должна быть реализация"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 5
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "USA\nAnytown\nMain Street\n123"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:30.1210368"
+}

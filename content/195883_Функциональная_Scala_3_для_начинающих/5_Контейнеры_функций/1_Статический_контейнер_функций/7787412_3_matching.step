@@ -1,0 +1,21 @@
+{
+  "step_id" : 7787412,
+  "lesson_id" : 1228708,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "matching",
+    "text" : "",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "matching",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:40.9477288"
+}

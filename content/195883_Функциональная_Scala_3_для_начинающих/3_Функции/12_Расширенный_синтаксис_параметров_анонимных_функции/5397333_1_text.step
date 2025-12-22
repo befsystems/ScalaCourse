@@ -1,0 +1,21 @@
+{
+  "step_id" : 5397333,
+  "lesson_id" : 1228707,
+  "position" : 1,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Не указывать типы параметров</h1>\n\n<p>В анонимной функции можно не указывать тип параметров при её определении, если <strong>известен</strong> <strong>тип функционального значения</strong>.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">val fun: Char =&gt; Unit = param =&gt; println(param) //  тип параметра param можно не указывать</code></pre>\n\n<p>Тип функционального значения <code>Char =&gt; Unit</code>.&nbsp; Из этого типа можно вывести тип параметра - он будет <code>Char</code>. Можно не указывать тип параметра, он будет выведен автоматически.</p>\n\n<p>Круглые скобки можно не указывать вокруг одиночного параметра без типа.</p>\n\n<p>Но если функциональный тип не задан, то нужно обязательно указать тип параметра.</p>\n\n<pre><code class=\"language-scala\">val fun = (param: Char) =&gt; println(param) // параметр param имеет тип Char</code></pre>\n\n<p>Зная тип параметра и тип выходного значения легко вычисляется тип функционального значения <code>Char =&gt; Unit</code></p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:27.0569643"
+}

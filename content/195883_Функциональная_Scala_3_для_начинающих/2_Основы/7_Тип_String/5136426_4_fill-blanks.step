@@ -1,0 +1,21 @@
+{
+  "step_id" : 5136426,
+  "lesson_id" : 1234950,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2>Задание:</h2>\n\n<p>Введите правильный ответ операции. Все используемые здесь символы - это английские символы.</p>\n\n<p>Если в ответе строка, то укажите двойные кавычки. Если в ответе символ, то одинарные кавычки. Если в ответе число, то без кавычек. Если операция не может быть выполнена, то в ответе укажите слово <strong>Ошибка</strong></p>\n\n<p>Например: <strong>\"abc\" </strong>или <strong>'a' </strong>или<strong> 7</strong></p>\n\n<div class=\"notranslate\" style=\"\"> </div>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:03.3337905"
+}

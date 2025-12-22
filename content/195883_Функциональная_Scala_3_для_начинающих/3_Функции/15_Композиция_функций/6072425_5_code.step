@@ -1,0 +1,47 @@
+{
+  "step_id" : 6072425,
+  "lesson_id" : 1458232,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Реализуйте обратную функцию <span style=\"color: #ff4363;\">inverseF</span>, чтобы итоговая функция <span style=\"color: #ff4363;\">identity</span> действительно была бы тождественной.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val f = (x: Int) => x * 2 - 8         // прямая функция  \nval inverseF = (y: Int) => ???  // обратная функция, реализация здесь\n\nval identity = f.andThen(inverseF)  // функция дает гарантировано исходный результат, для любого аргумента"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "2\n",
+          "2\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:23.9805906"
+}

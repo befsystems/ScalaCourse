@@ -1,0 +1,47 @@
+{
+  "step_id" : 8289729,
+  "lesson_id" : 1228705,
+  "position" : 9,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создать функцию-генератор, которая создает функцию для операции <strong>filter</strong> строки.</h3>\n\n<h3>Сгенерированная функция должна обеспечивать следующую фильтрацию: если длина строки больше 3, то надо оставлять только числовые символы, если нет, то буквенные.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val filterGen: String => (Char => Boolean) = ??? // Реализация тут\n\nval res = arg.filter(filterGen(arg))"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "abc",
+          "abc"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:31.1589507"
+}

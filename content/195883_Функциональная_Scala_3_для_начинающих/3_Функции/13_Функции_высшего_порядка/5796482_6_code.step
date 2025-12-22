@@ -1,0 +1,47 @@
+{
+  "step_id" : 5796482,
+  "lesson_id" : 1228705,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте новую строку <span style=\"color: #ff4363;\">res</span> из строки <span style=\"color: #ff4363;\">str</span>, при этом оставьте только символы цифр и большие буквы. Для этого вставьте нужную предикатную функцию в функцию <span style=\"color: #ff4363;\">filter</span>.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val res = str.filter(???) // Тут реализация"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "abc123ABC\n",
+          "123ABC\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:31.1564687"
+}

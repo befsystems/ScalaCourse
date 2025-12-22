@@ -1,0 +1,21 @@
+{
+  "step_id" : 7947570,
+  "lesson_id" : 1911144,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Рекурсивные типы (Recursive Types)</h1>\n\n<blockquote>\n<p><strong>Примечание:</strong> <em>Некоторые примеры содержат синтаксис Scala, с которым вы можете быть ещё не знакомы. Не волнуйтесь — эти конструкции следует рассматривать как справочник возможностей языка и будут детально разобраны позже.</em></p>\n</blockquote>\n\n<p>Типы, которые содержат себя же — как матрёшка:</p>\n\n<pre><code class=\"language-scala\">// Простой список\nsealed trait SimpleList\ncase object Empty extends SimpleList\ncase class Item(value: Int, next: SimpleList) extends SimpleList\n\n// Создание: [1, 2, 3]\nval list = Item(1, Item(2, Item(3, Empty)))</code></pre>\n\n<h1 style=\"text-align:center;\">Параметрические типы (Generic Types)</h1>\n\n<p>Типы, параметризованные другими типами<strong>.</strong></p>\n\n<pre><code class=\"language-scala\">// Простая коробка для любого типа\ncase class Box[T](value: T)\n\nval numberBox = Box(42)        // Box[Int]\nval stringBox = Box(\"hello\")   // Box[String]</code></pre>\n\n<h1 style=\"text-align:center;\">Композиция типов</h1>\n\n<p>Все эти типы могут образовывать композиции друг с другом, создавая более сложные типы данных, такие как ADT (Algebraic Data Types). При анализе такие композитные типы можно декомпозировать на составные части и рассматривать их свойства по отдельности.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:44.0299151"
+}

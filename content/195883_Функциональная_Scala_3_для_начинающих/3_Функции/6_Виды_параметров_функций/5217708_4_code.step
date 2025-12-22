@@ -1,0 +1,47 @@
+{
+  "step_id" : 5217708,
+  "lesson_id" : 1255296,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Данный код полностью работоспособен.</h3>\n\n<h3>Проведите исследование работы функции <span style=\"color:#ff4363;\">doublePrint</span>.<span style=\"color:#ff4363;\"> </span>Выполните код несколько раз, посмотрите на результаты в консоли. Вы должны понимать причины последовательности вывода результата в консоль.</h3>\n\n<h3>Код можно изменить, чтобы посмотреть на изменение результатов.</h3>\n\n<h3>Для закрытия задачи закомментируйте все функции <span style=\"color:#ff4363;\">println</span></h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def doublePrint(param1: Double, param2: => Double): Unit = {\n  println(\"start\")\n  println(param1)\n}\n\nlazy val expr1 = {\n  println(\"get argument 1\")\n  random()\n}  \n\nlazy val expr2 = {\n  println(\"get argument 2\")\n  random()\n}    \n\ndoublePrint(expr1, expr2)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:14.0927654"
+}

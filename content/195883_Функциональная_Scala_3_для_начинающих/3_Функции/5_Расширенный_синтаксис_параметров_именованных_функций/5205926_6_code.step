@@ -1,0 +1,47 @@
+{
+  "step_id" : 5205926,
+  "lesson_id" : 1228709,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Исправьте ошибку синтаксиса при определении функции.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def add(param1: Int, param2: Char*, param3: Char): String = param1.toString + param2.mkString + param3\n\nval res = add(arg1, arg2, arg3, arg4, arg5)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 7
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "2 a b c d\n",
+          "2abcd\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:20.9059707"
+}

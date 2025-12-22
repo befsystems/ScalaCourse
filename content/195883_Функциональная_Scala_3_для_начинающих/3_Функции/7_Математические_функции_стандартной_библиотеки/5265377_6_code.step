@@ -1,0 +1,47 @@
+{
+  "step_id" : 5265377,
+  "lesson_id" : 1252927,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Сначала <span style=\"color:#ff4363;\">исследуйте</span> работу библиотечной функции <span style=\"color:#ff4363;\"><strong>hypot</strong></span>. См. первое задание.</h3>\n\n<h3><strong><span style=\"color:#ff4363;\">Реализуйте</span> </strong>функцию <strong><span style=\"color:#ff4363;\">hypotX</span> </strong>таким образом, чтобы она повторяла алгоритм функции <span style=\"color:#ff4363;\"><strong>hypot</strong></span>, и замените функцию <strong><span style=\"color:#ff4363;\">hypot</span> </strong>на функцию<span style=\"color:#ff4363;\"> <strong>hypotX</strong></span> в строке вызова функции<strong>. </strong></h3>\n\n<h3>При реализации функции <span style=\"color:#ff4363;\"><strong>hypotX</strong></span> не используйте функцию<span style=\"color:#ff4363;\"> </span><strong><span style=\"color:#ff4363;\">hypot</span></strong>. <span style=\"color:#ff4363;\">Можно</span> использовать <span style=\"color:#ff4363;\"><strong>другие</strong></span> функции стандартной библиотеки и любые известные вам языковые конструкции.</h3>\n\n<h3>После трех неудачных попыток реализации откроется пример верного решения.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def hypotX(x: Double, y: Double): Double = {\n  ??? // реализация функции здесь   \n}\n\n// Функция усечения дробной части вещественного числа до трех знаков \ndef truncation(x: Double): Double = \n  (x * 1000).toLong / 1000.0\n\nval res = truncation(hypot(arg1, arg2))  // замените на truncation(hypotX(arg1, arg2))"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 5
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "8.0 11.0\n",
+          "13.601\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:26.0991517"
+}

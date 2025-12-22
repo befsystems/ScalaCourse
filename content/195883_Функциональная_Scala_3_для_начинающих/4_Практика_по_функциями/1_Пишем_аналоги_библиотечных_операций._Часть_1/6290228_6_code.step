@@ -1,0 +1,47 @@
+{
+  "step_id" : 6290228,
+  "lesson_id" : 1472504,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3><strong>Реализуйте </strong><span style=\"color:#ff4363;\">анонимную </span>функцию <span style=\"color:#ff4363;\">distinctFunc</span> таким образом, чтобы она полностью повторяла алгоритм операции <span style=\"color:#ff4363;\">distinct </span>для типа String. При реализации используйте операции <span style=\"color:#ff4363;\"><strong>foldLeft</strong></span> и <span style=\"color:#ff4363;\">contains</span>.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val distinctFunc: String => String =\n  (str: String) => str.foldLeft(\"\")((acc, el) =>\n      ???  // Реализация тут\n    )\n\nval res = distinctFunc(arg1)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 4
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "aaa\n",
+          "a\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:36.9229897"
+}

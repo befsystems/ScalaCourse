@@ -1,0 +1,21 @@
+{
+  "step_id" : 5100791,
+  "lesson_id" : 1228701,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align: center;\">Логическая конструкция <strong>if</strong></h1>\n\n<p>Конструкция <strong>if</strong> позволяет получить значение в зависимости от логического выражения.</p>\n\n<pre><code class=\"language-scala\">if логическое_выражение then \n  // выражение, если логическое выражение истинно\nelse \n  // выражение, если логическое выражение ложно</code></pre>\n\n<p>Конструкция <strong>if</strong> является выражением.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">val a = 5\nval b = 9\nval res = if a &gt; b then \n  a - b\nelse \n  b - a // вычисляется это выражение\n\n// res имеет значение 4</code></pre>\n\n<p>Конструкцию можно написать в одну строчку:</p>\n\n<pre><code class=\"language-scala\">val res = if a &gt; b then a - b else b - а</code></pre>\n\n<p>Это конструкция может иерархически повторяться и иметь любую вложенность.</p>\n\n<p>Пример вложенной конструкции:</p>\n\n<pre><code class=\"language-scala\">val a = 5\nval b = 10\nval res = if a &gt; b then  \n  if (a - b) &gt; 0 then\n    a * b\n  else \n    a + b\nelse \n  b - a // вычисляется это выражение\n\n// res имеет значение 5</code></pre>\n\n<p>Все логические операции можно построить на конструкции <code><strong>if</strong></code>.</p>\n\n<p>Пример реализации операции <strong>Логическое И</strong> на конструкции <code>if</code>:</p>\n\n<pre><code class=\"language-scala\">val a = true  // например\nval b = false // например\n\n// операция Логическое И\nval res = if a then  \n  b\nelse \n  false\n\n// res = false</code></pre>\n\n<p><strong>Внимание</strong>! Существует императивный вариант конструкции <code><strong>if</strong></code>, который может не использовать оператор <code><strong>else.</strong></code> Если вы забудете указать <strong><code>else</code></strong>в своей конструкции,&nbsp; то компилятор может создать императивный вариант конструкции, а он делает совсем не то, что задумывалось.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:00.1127593"
+}

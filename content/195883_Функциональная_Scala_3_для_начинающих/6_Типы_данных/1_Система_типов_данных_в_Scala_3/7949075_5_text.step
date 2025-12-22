@@ -1,0 +1,21 @@
+{
+  "step_id" : 7949075,
+  "lesson_id" : 1911144,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Мета-уровень системы типов Scala 3</h1>\n\n<p>Помимо основных типов данных (product, sum, function types), Scala 3 предоставляет мощные <strong>мета-типовые</strong> возможности — концепции, которые работают <strong>над</strong> обычными типами. Мета-уровень представляет программирование с типами как объектами манипуляций, где типы могут быть параметрами, результатами вычислений и объектами трансформаций.</p>\n\n<blockquote>\n<p><strong>Примечание</strong>: Некоторые примеры содержат синтаксис Scala, с которым вы можете быть ещё не знакомы. Не волнуйтесь — эти конструкции следует рассматривать как справочник возможностей языка и будут детально разобраны позже.</p>\n</blockquote>\n\n<h2 style=\"text-align:center;\">Иерархия уровней абстракции типов</h2>\n\n<p>Понимание системы типов Scala 3 требует разграничения различных уровней абстракции типов:</p>\n\n<p><strong>Value Level (Уровень значений)</strong> - базовый уровень, где происходит выполнение программы. Здесь находятся конкретные значения: числа, строки, объекты, с которыми работает ваш код во время runtime.</p>\n\n<pre><code class=\"language-scala\">val user = User(\"Alice\", 25)  // Конкретное значение времени выполнения\nval result = calculateTotal(items)  // Вычисление значений</code></pre>\n\n<p><strong>Type Level (Уровень типов)</strong> - уровень спецификации и проверки корректности. Типы определяют множества допустимых значений и операций над ними, проверяются во время компиляции и обеспечивают безопасность программы.</p>\n\n<pre><code class=\"language-scala\">type UserId = Long  // Спецификация множества значений\ntype Result[T] = Either[Error, T]  // Параметрический тип</code></pre>\n\n<p><strong>Kind Level (Уровень родов)</strong> - мета-уровень над типами, работающий с типовыми конструкторами. Здесь определяются абстракции над самими типами, что критически важно для generic programming и функциональных абстракций.</p>\n\n<pre><code class=\"language-scala\">type Functor[F[_]] = ...  // F[_] - типовой конструктор\ntype Monad[M[_]] = ...    // Абстракция над типовыми конструкторами</code></pre>\n\n<p>&nbsp;</p>\n\n<p><strong>Мета-типовые</strong> возможности работают на уровне выше обычных типов данных, позволяя программировать с типами как с объектами первого класса — параметризовать их, вычислять и трансформировать.</p>\n\n<h2 style=\"text-align:center;\">Типы высших порядков (Higher-Kinded Types)</h2>\n\n<p><strong>Higher-Kinded Type (HKT)</strong> — это тип, который принимает другие параметризованные типы в качестве параметров.</p>\n\n<pre><code class=\"language-scala\">// Higher-kinded types (kind (* -&gt; *) -&gt; *)\ntrait Functor[F[_]] {  // F[_] — это конструктор типа\n  def map[A, B](fa: F[A])(f: A =&gt; B): F[B]\n}\n</code></pre>\n\n<h2 style=\"text-align:center;\">Match Types (Типы соответствия)</h2>\n\n<p><strong>Match Type</strong> — возможность выполнять сопостовление на уровне типов, позволяя типам \"вычисляться\" в зависимости от других типов.</p>\n\n<pre><code class=\"language-scala\">// Тип зависит от длины строки (compile-time значение)\ntype Length[S &lt;: String] = S match \n  case \"cat\" =&gt; 3\n  case \"hello\" =&gt; 5\n  case \"world\" =&gt; 5\n\n// Использование\nval catLength: Length[\"cat\"] = 3      // тип 3\nval helloLength: Length[\"hello\"] = 5   // тип 5\n</code></pre>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:44.031899"
+}

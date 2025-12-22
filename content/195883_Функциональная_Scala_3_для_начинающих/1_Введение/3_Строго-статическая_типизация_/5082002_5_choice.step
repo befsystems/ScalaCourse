@@ -1,0 +1,21 @@
+{
+  "step_id" : 5082002,
+  "lesson_id" : 1221092,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "choice",
+    "text" : "<h2>Какие приемущества дает строгая статическая типизация?</h2>",
+    "video" : null,
+    "options" : {
+      "is_multiple_choice" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "choice",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:20:55.9103118"
+}

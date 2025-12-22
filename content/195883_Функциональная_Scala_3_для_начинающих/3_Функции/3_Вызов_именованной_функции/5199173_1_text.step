@@ -1,0 +1,21 @@
+{
+  "step_id" : 5199173,
+  "lesson_id" : 1252916,
+  "position" : 1,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">&nbsp;Вызов именованной функции</h1>\n\n<p>Использование или вызов именованной функции осуществляется с использованием её имени и с указанием аргументов для её параметров.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">def add(param1: Int, param2: Double): Double = ???  // определение функции add\nval res: Double = add(1, 2.1) // вызов (использование) функции add\n</code></pre>\n\n<p>Результат функции будет содержать значение res.</p>\n\n<p>Аргументы для параметров должны быть указаны через запятую, в том порядке, как были определены параметры.</p>\n\n<p>Тип подставляемых аргументов должен соответствовать типу параметров.</p>\n\n<p>&nbsp;</p>\n\n<p>Аргументами могут выступать <strong>все виды</strong> выражений и значений соответствующего типа.</p>\n\n<p>Это могут быть литералы:</p>\n\n<pre><code class=\"language-scala\">val res: Double = add(1, 2.1) \n</code></pre>\n\n<p>Это могут быть значения:</p>\n\n<pre><code class=\"language-scala\">val param = 1\nval res: Double = add(param, 2.1) \n</code></pre>\n\n<p>Это могут быть сложные выражения:</p>\n\n<pre><code class=\"language-scala\">val res: Double = add(1 + 1, 2.0 + 0.1) \n</code></pre>\n\n<p>Это могут быть вызов функции:</p>\n\n<pre><code class=\"language-scala\">val res: Double = add(1, add(1, 1.0), 2.0)\n</code></pre>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:22.9598045"
+}

@@ -1,0 +1,21 @@
+{
+  "step_id" : 5174505,
+  "lesson_id" : 1245568,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align: center;\">&nbsp;Многострочное тело функции</h1>\n\n<p>Если тело функции состоит из <strong>нескольких</strong> выражений, то образуется блок выражений. Блок выражений обозначается фигурными скобками.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">def add(param1: Int, param2: Int): Int = {\n  val temp1 = param1 + 1\n  val temp2 = param2 - 1\n  temp1 + temp2 \n}</code></pre>\n\n<ul>\n</ul>\n\n<p>Можно <strong>не использовать</strong> фигурные скобки вообще, если отступы каждого выражения блока от левого края <strong>одинаковые</strong>.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">def add(param1: Int, param2: Int): Int = \n  val temp1 = param1 + 1\n  val temp2 = param2 - 1\n  temp1 + temp2 \n</code></pre>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:29.1203926"
+}

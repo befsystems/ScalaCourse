@@ -1,0 +1,21 @@
+{
+  "step_id" : 5075181,
+  "lesson_id" : 1221090,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "choice",
+    "text" : "<h2>Отметьте правильные выражения:</h2>",
+    "video" : null,
+    "options" : {
+      "is_multiple_choice" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "choice",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:20:58.0597693"
+}

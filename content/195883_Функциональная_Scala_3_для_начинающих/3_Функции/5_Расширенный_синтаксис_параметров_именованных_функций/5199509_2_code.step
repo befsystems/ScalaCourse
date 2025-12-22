@@ -1,0 +1,47 @@
+{
+  "step_id" : 5199509,
+  "lesson_id" : 1228709,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Сделайте вызов функции <span style=\"color: #ff4363;\">calculate </span>с аргументами <span style=\"color: #ff4363;\">arg1</span> - <span style=\"color: #ff4363;\">arg6</span>, указав их в обратном порядке от определения параметров функции.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def calculate(param1: Int, param2: Int, param3: Int, param4: Int, param5: Int, param6: Int): Int = \n  param1 + param2 * param3 / param4 - param5 + param6 \n\nval res = // здесь должен быть вызов функции calculate"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 8
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "1 2 3 4 5 6\n",
+          "3\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:20.8950598"
+}

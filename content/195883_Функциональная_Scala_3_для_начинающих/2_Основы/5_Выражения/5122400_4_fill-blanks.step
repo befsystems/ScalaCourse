@@ -1,0 +1,21 @@
+{
+  "step_id" : 5122400,
+  "lesson_id" : 1221095,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2>Задание:</h2>\n\n<p>Вычислите результат выражения и напишите его вместе с типом.</p>\n\n<p>Например:&nbsp; <strong>4 Int</strong> или <strong>55 Long</strong>.</p>\n\n<p>Если выражение не может быть вычислено, то в ответе укажите слово <strong>Ошибка</strong></p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:07.3927999"
+}

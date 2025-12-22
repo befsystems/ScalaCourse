@@ -1,0 +1,21 @@
+{
+  "step_id" : 5101116,
+  "lesson_id" : 1228707,
+  "position" : 7,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Скрытый параметр</h1>\n\n<p><strong>Одиночный</strong> параметр функции можно совсем нигде не указывать, если он применяется как <strong>аргумент</strong> другой функции с <strong>одним параметром</strong> и только <strong>один раз</strong>. Компилятор сам подставит параметр в нужное место.</p>\n\n<pre><code class=\"language-scala\">val fun: Char =&gt; Unit = char =&gt; println(char) // явное указание параметра\nval fun: Char =&gt; Unit = println // функция println имеет один параметр, но он не указывается. </code></pre>\n\n<p>Данный прием используется для написания специальных лексических строковых конструкций. При обычном кодировании лучше его не использовать.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:27.0782933"
+}

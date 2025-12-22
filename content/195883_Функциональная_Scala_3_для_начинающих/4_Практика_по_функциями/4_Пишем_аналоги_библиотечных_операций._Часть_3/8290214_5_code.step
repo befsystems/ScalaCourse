@@ -1,0 +1,47 @@
+{
+  "step_id" : 8290214,
+  "lesson_id" : 1880646,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте функцию высшего порядка <span style=\"color:#ff4363;\">string</span><span style=\"color:#ff4363;\"><strong>Exists</strong></span><span style=\"color:#00627a;\"> </span>- аналог операции<span style=\"color:#00627a;\"> </span><span style=\"color:#ff4363;\"><strong>exists</strong></span><span style=\"color:#00627a;\"> </span>для типа String.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def stringExists(str: String)(f: Char => Boolean): Boolean = ???"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 5
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "abc",
+          "false\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:34.6376676"
+}

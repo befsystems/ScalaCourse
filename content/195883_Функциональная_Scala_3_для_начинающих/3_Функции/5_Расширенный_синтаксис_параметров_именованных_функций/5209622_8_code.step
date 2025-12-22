@@ -1,0 +1,47 @@
+{
+  "step_id" : 5209622,
+  "lesson_id" : 1228709,
+  "position" : 8,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Перепишите код, использовав блок выражений как аргумент функции <span style=\"color: #ff4363;\">triple</span></h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def triple(param: Int): Int = param * 3\n\nval res1 = arg1 + arg2\nval res2 = arg3 + res1\nval res = triple(res2)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 5
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "1 2 3\n",
+          "18\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:20.911427"
+}

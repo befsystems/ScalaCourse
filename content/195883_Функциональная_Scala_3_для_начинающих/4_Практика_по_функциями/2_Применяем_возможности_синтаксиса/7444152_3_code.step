@@ -1,0 +1,47 @@
+{
+  "step_id" : 7444152,
+  "lesson_id" : 1808695,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Сократите объем кода,&nbsp;сохранив его полную функциональность.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val res = \"abc\".sortWith((ch1: Char, ch2: Char) => ch1 > ch2 )"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "",
+          "cba"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:35.8159338"
+}

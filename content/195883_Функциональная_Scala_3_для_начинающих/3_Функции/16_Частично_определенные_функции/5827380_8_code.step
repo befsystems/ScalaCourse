@@ -1,0 +1,47 @@
+{
+  "step_id" : 5827380,
+  "lesson_id" : 1301870,
+  "position" : 8,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте табличную функцию дешифратор на основе&nbsp;<span style=\"color:#ff4363;\"><strong>PartialFunction</strong></span>, для преобразования строки&nbsp;в строку<span style=\"color:#ff4363;\"><strong> </strong></span>, используя для строки функцию высшего порядка <span style=\"color:#ff4363;\">foldLeft. </span></h3>\n\n<h3>Расшифрованная строка должна быть \"Hello world!\"</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "//Hello world!\nval res = \"aqzwwerveyuwkld\".foldLeft(\"\") {\n  case (acc, 'a') => acc + 'H'\n  // сюда еще добавьте нужных альтернатив \n}"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "",
+          "Hello world!\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:25.0489318"
+}

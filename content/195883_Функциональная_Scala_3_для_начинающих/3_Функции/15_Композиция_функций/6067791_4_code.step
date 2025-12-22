@@ -1,0 +1,47 @@
+{
+  "step_id" : 6067791,
+  "lesson_id" : 1458232,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте композицию трех функций, чтобы при тестовом аргументе <span style=\"color:#ff4363;\">5,</span> результат композиции получался <span style=\"color:#ff4363;\">2</span>.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def f(x: Int) = x + 2 \ndef g(x: Int) = x * 3 \ndef h(x: Int) = x - 5 \nval res = // реализация"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 3
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "5\n",
+          "2"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:23.9800944"
+}

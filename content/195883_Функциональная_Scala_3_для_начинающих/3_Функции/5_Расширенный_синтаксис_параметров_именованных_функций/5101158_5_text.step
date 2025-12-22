@@ -1,0 +1,21 @@
+{
+  "step_id" : 5101158,
+  "lesson_id" : 1228709,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align: center;\">Список аргументов переменной длины</h1>\n\n<p>При вызове функции можно указывать список аргументов <strong>переменной</strong> длины, если <strong>последним</strong> параметром в списке указать <strong>повторяющийся</strong> параметр.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">def add(param1: Int, param2: Char*): String = param1.toString + param2.mkString  \nval res = add(1, 'a', 'b') // Результат строка \"1ab\"\nval res2 = add(1, 'a', 'b', 'c') // // Результат строка \"1abc\"\nval res3 = add(1) // // Результат строка \"1\"</code></pre>\n\n<p>где <strong>Char*</strong> - повторяющийся параметр,</p>\n\n<p>К типу Char добавлена звездочка <strong>*</strong>, которая указывает, что параметр может принимать список аргументов типа Char.</p>\n\n<p>Операция <strong>mkString</strong> создает строку из списка символов. В теле функции с повторяющимся параметром нужно работать как со списком значений. Работа со списками будет освещена в будущих занятиях.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:20.9024989"
+}

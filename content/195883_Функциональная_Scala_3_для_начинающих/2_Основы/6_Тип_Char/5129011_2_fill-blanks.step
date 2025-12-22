@@ -1,0 +1,21 @@
+{
+  "step_id" : 5129011,
+  "lesson_id" : 1221096,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2>Задание:</h2>\n\n<p>Введите правильный ответ операции. Все используемые здесь символы - это английские символы.</p>\n\n<p>Например:  <strong>4</strong>, <strong>a </strong>или <strong>true</strong></p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:10.3497668"
+}

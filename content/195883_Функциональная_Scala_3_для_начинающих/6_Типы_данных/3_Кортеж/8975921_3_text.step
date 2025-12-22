@@ -1,0 +1,21 @@
+{
+  "step_id" : 8975921,
+  "lesson_id" : 1228704,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Именованные кортежи</h1>\n\n<p>В Scala 3 появилась возможность создавать именованные кортежи, где каждый элемент имеет имя. Это решает одну из главных проблем обычных кортежей - доступ к элементам только по порядковому номеру.</p>\n\n<h3>Создание именованных кортежей</h3>\n\n<pre><code class=\"language-scala\">val person = (name = \"Иван\", age = 30, city = \"Москва\")</code></pre>\n\n<p>Тип такого кортежа будет выведен как:</p>\n\n<pre><code class=\"language-scala\">(name: String, age: Int, city: String)</code></pre>\n\n<h3>Доступ к элементам именованных кортежей</h3>\n\n<p>К элементам именованных кортежей можно обращаться как по имени, так и по позиции:</p>\n\n<pre><code class=\"language-scala\">val person: (name: String, age: Int, city: String) = (name = \"Иван\", age = 30, city = \"Москва\")\n\nval personName: String = person.name  // Доступ по имени\nval personAge: Int = person.age       // Доступ по имени\nval personCity: String = person.city  // Доступ по имени\n\nval firstElement: String = person._1  // Доступ по позиции (начиная с 1)\nval secondElement: Int = person._2    // Доступ по позиции</code></pre>\n\n<h3>Декомпозиция именованных кортежей</h3>\n\n<pre><code class=\"language-scala\">val person = (name = \"Иван\", age = 30, city = \"Москва\")\n\n// Обычная декомпозиция \nval (userName, userAge, userCity) = person\nprintln(s\"$userName $userAge $userCity\")  // Иван 30 Москва\n\n// Декомпозиция С ИСПОЛЬЗОВАНИЕМ ИМЕН (только для именованных кортежей!)\nval (name = personName, age = personAge, city = personCity) = person\nprintln(s\"$personName $personAge $personCity\") // Иван 30 Москва\n\n// Порядок не важен, полнота необязательна (только для именованных кортежей!)\nval (city = pCity, age = pAge) = person\nprintln(s\"$pAge $pCity\")  // 30 Москва</code></pre>\n\n<h3>Patten Matching именованных кортежей</h3>\n\n<pre><code class=\"language-scala\">  val person = (name = \"Иван\", age = 30, city = \"Москва\")\n  val location = \"Москва\"\n\n  person match {\n    // Полная декомпозиция, сопоставление по полю name\n    case (name = \"Иван\", age = a, city = c) =&gt; s\"Это Иван, $a лет, из города $c\"\n    // Частичная декомпозиция, порядок полей не важен, сопостовление по полю city с внешним шаблоном\n    case (city = `location`, name = name) =&gt;  s\"Это $name\"\n  }</code></pre>\n\n<h3>Преимущества именованных кортежей</h3>\n\n<ol>\n\t<li><strong>Читаемость кода</strong>: Имена элементов делают код более понятным и самодокументируемым</li>\n\t<li><strong>Безопасность</strong>: Меньше вероятность перепутать элементы, особенно в длинных кортежах</li>\n\t<li><strong>Удобство</strong>: Не нужно помнить порядок элементов, достаточно знать их имена</li>\n</ol>\n\n<p> </p>\n\n<h2 style=\"text-align:center;\"> </h2>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:46.1136393"
+}

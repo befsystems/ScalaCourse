@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "stepik": {
+      "command": "java",
+      "args": [
+        "-Dfile.encoding=UTF-8",
+        "-jar",
+        "mcp/StepikMCPServer/StepikMCPServer-assembly-1.0.12.jar"
+      ],
+      "env": {
+        "LOG_LEVEL": "DEBUG"
+      }
+    }
+  }
+}

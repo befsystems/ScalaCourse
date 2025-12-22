@@ -1,0 +1,47 @@
+{
+  "step_id" : 7368196,
+  "lesson_id" : 1472504,
+  "position" : 10,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3><strong>Реализуйте </strong><span style=\"color:#ff4363;\">анонимную </span>функцию&nbsp;<span style=\"color:#ff4363;\"><strong>replace</strong>Func </span>таким образом, чтобы она полностью повторяла алгоритм операции <span style=\"color:#ff4363;\"><strong>replace</strong> </span>для типа String. При реализации используйте операцию <span style=\"color:#ff4363;\"><strong>foldLeft</strong></span>.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val replaceFunc: (String, Char, Char) => String =\n  (str: String, oldChar: Char, newChar: Char) =>\n    str.foldLeft(\"\")( (acc, el) =>\n      ???  // Реализация тут\n    )  \n\nval res = replaceFunc(arg1, arg2, arg3)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 6
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "abc b d\n",
+          "adc\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:36.9294378"
+}

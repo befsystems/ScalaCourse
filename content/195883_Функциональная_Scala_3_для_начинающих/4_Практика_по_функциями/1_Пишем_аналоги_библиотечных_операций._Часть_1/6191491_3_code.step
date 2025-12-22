@@ -1,0 +1,47 @@
+{
+  "step_id" : 6191491,
+  "lesson_id" : 1472504,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Сначала<strong> <span style=\"color:#ff4363;\">исследуйте</span></strong> работу операции <span style=\"color:#ff4363;\"><strong>contains</strong> </span>для типа String c аргументом <span style=\"color:#ff4363;\">String</span>.</h3>\n\n<h3>Для этого нажмите кнопку <span style=\"color:#ff4363;\"><strong>Запустить код</strong></span>. Программа выполниться с начальным тестовым аргументом. Далее вводите свое тестовое значение аргумента в поле <span style=\"color:#ff4363;\"><strong>Test input</strong></span>, и также нажмите кнопку <span style=\"color:#ff4363;\"><strong>Запустить код</strong></span>. В поле <span style=\"color:#ff4363;\"><strong>Test output</strong></span> вы получите результат вызова функции <span style=\"color:#ff4363;\"><strong>contains</strong></span>. Проделайте это <span style=\"color:#ff4363;\"><strong>несколько </strong></span>раз с <strong><span style=\"color:#ff4363;\">разными</span> </strong>аргументами, чтобы понять алгоритм работы операции.</h3>\n\n<h3><strong>Реализуйте </strong><span style=\"color:#ff4363;\">именованную </span>функцию <span style=\"color:#ff4363;\">containsFunc</span> таким образом, чтобы она полностью повторяла алгоритм операции <span style=\"color:#ff4363;\"><strong>contains</strong></span>, и раскомментируйте<span style=\"color:#ff4363;\"><strong> </strong></span>вызов функции <span style=\"color:#ff4363;\">containsFunc</span><strong>, для её проверки.</strong></h3>\n\n<h3>При реализации не используйте операцию <span style=\"color:#ff4363;\"><strong>contains</strong></span>, используйте операцию <span style=\"color:#ff4363;\"><strong>indexOf</strong></span>.</h3>\n\n<h3>После трех неудачных попыток реализации откроется пример верного решения.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// \"abc\".contains(\"bc\") - пример вызова операции с аргументом \"bc\". Результат = true\nval res: Boolean = \"abc\".contains(arg1) //оригинальная операция - закомментируйте её после окончания исследования\n\ndef containsFunc(str: String, substr: String): Boolean =\n   ???  // Реализация тут, используя операцию indexOf\n\n\n// val res = containsFunc(\"abc\", arg1) // раскомментируйте вызов функции после её реализации, для проверки"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 4
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "bc\n",
+          "true\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:36.9180299"
+}

@@ -1,0 +1,21 @@
+{
+  "step_id" : 5109226,
+  "lesson_id" : 1221094,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2 style=\"text-align: center;\">Операции отношения типов Int и Long</h2>\n\n<h3>Задание:</h3>\n\n<p>Введите правильный ответ операции.</p>\n\n<p>Например:&nbsp; <code><strong>true</strong></code> или <strong><code>false</code></strong>.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:06.3525623"
+}

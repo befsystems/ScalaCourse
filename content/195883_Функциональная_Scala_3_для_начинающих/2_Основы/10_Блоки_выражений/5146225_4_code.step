@@ -1,0 +1,47 @@
+{
+  "step_id" : 5146225,
+  "lesson_id" : 1228702,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Перепишите блок выражений без использования фигурных скобок. Результат блока выражений <span style=\"color: #ff4363;\"><strong>expression5</strong></span> должен быть <span style=\"color: #ff4363;\"><strong>11</strong></span></h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val expression5: Int = { val expression4: Int = { val expression3: Int = {\n  val expression1 = 1 + 1\n  val expression2 = 2 + 2\n  expression1 * expression2 }\n  expression3 + 1 }\n  expression4 + 2\n}"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "11\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:20:59.0490389"
+}

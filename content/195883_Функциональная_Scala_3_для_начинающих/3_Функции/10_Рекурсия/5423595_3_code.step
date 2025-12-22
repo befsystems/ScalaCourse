@@ -1,0 +1,47 @@
+{
+  "step_id" : 5423595,
+  "lesson_id" : 1228711,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Доделайте рекурсивную функцию переворачивания (реверсирование) строки.</h3>\n\n<p>Вы можете для контроля за промежуточными результатами, в каждом шаге выводить значения на печать командой <code>println.</code> Однако, перед отправкой на проверку необходимо все команды печати удалить.</p>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "def reverseString(str: String): String = {\n    if str.isEmpty then \n      \"\" // Базовый случай: если строка пустая, вернуть пустую строку\n    else\n      // Рекурсивный случай: \n      //  1. Получить первый символ строки  -- выражение на прямом ходу рекурсии\n      //  2. Получить хвост строки (строка без первого символа) -- выражение на прямом ходу рекурсии\n      //  3. Сделать вызов функции reverseString с аргументом хвоста строки  -- рекурсивный вызов функции\n      //  4. Соединить результат рекурсивного вызова с первым символом  -- выражение на обратном ходу рекурсии\n      ??? // Здесь реализация\n}"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Hello, World!\n",
+          "!dlroW ,olleH\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:12.7066459"
+}

@@ -1,0 +1,47 @@
+{
+  "step_id" : 5397144,
+  "lesson_id" : 1228703,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте кортеж функций, выполняющих операции сравнения двух символов (Char). Перечень требуемых операций: ==, !=, &gt;, &gt;=, &lt;, &lt;=.  Далее, используя для каждой функции кортежа аргументы <span style=\"color: #ff4363;\">arg1</span> и <span style=\"color: #ff4363;\">arg2</span>, постройте кортеж ответов всех функций.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val tuple = // кортеж функций    \nval res = // кортеж ответов"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 4
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "a b\n",
+          "(false,true,false,false,true,true)\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:16.7186308"
+}

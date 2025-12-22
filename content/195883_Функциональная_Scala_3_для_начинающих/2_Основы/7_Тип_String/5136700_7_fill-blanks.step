@@ -1,0 +1,21 @@
+{
+  "step_id" : 5136700,
+  "lesson_id" : 1234950,
+  "position" : 7,
+  "type" : "unknown",
+  "block" : {
+    "name" : "fill-blanks",
+    "text" : "<h2>Задание:</h2>\n\n<p>Введите правильный ответ операции. Все используемые здесь символы - это английские символы.</p>\n\n<p>Например: \"<strong>abc\"</strong> или<strong> </strong><code><strong>true </strong></code>или<code><strong>10 </strong></code></p>\n\n<p>Если операция не может быть выполнена, то в ответе укажите слово <strong>Ошибка</strong></p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "fill-blanks",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:03.3392506"
+}

@@ -1,0 +1,21 @@
+{
+  "step_id" : 5082785,
+  "lesson_id" : 1221094,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Типы Short и Byte</h1>\n\n<p>Типы <code>Short</code>, <code>Byte</code> являются декоративными типами, потому что при выполнении программы они превращаются в тип Int. Их диапазон значений меньше чем у <code>Int</code>.</p>\n\n<p>Диапазон значений типа <code>Byte</code> ограничен от -128 до 127 включительно.</p>\n\n<p>Диапазон значений типа <code>Short</code> ограничен от -32768 до 32767 включительно.</p>\n\n<p>Особенности типов <code>Byte</code> и <code>Short</code> аналогичны типам <code>Int</code> и <code>Long</code>.</p>\n\n<p>Применение типов <code>Byte</code> и <code>Short</code> может быть оправдано в протоколе с внешней системой, где необходимо использовать эти типы.</p>\n\n<p>Получить значения этих типов можно только преобразовав значение другого типа.</p>\n\n<p>У данных типов нет своих литералов.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:06.3411554"
+}

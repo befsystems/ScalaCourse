@@ -1,0 +1,21 @@
+{
+  "step_id" : 8107090,
+  "lesson_id" : 1941243,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\"> Декомпозиция кортежа</h1>\n\n<p><strong>Декомпозиция кортежа</strong> — это процесс разбиения кортежа на её элементы и <strong>связывания их с именами</strong> (name binding). Это позволяет \"разобрать\" составную структуру данных на её компоненты и использовать их по отдельности.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">// Создание кортежа\nval coordinates = (10, 20)\n\n// Декомпозиция - разбираем кортеж и связываем элементы с именами\nval (x, y) = coordinates\n\nprintln(x) // 10\nprintln(y) // 20</code></pre>\n\n<p>Список имен извлекаемых значений нужно заключить в <strong>круглые скобки</strong>, количество имен должно строго <strong>соответствовать</strong> <strong>количеству</strong> элементов кортежа. Извлечение элементов кортежа в имена будет произведено <strong>по порядку их расположения</strong> в кортеже. Имена извлекаемых значений в списке могут быть произвольными, важен только их порядок.</p>\n\n<p>При декомпозиции можно <strong>указать типы</strong> извлекаемых элементов, тогда будет дополнительно произведена проверка соответствия типов этих элементов:</p>\n\n<pre><code class=\"language-scala\">val tuple4 = (1, \"s\", 2L, 'a')     // Создание кортежа\nval (a: Int, b: String, c: Long, d: Char) = tuple4 // Декомпозиция кортежа на составные элементы\nval res = a / c / d + b    // Использование извлеченных элементов кортежа. Результат - строка \"0s\"</code></pre>\n\n<h2 style=\"text-align:center;\">Частичная <strong>декомпозиция </strong></h2>\n\n<p>Если при декомпозиции часть элементов не нужна, то вместо названия значения можно указать знак подстановки _ , но обязательно создать список для всех элементов, в порядке их нахождения в кортеже.</p>\n\n<pre><code class=\"language-scala\">val tuple4 = (1, \"s\", 2L, 'a') // Создание кортежа\nval (el1, _, el3, _) = tuple4  // Декомпозиция кортежа на составные элементы\nval res = el1 / el3            // Использование извлеченных элементов кортежа. Результат - значение 0</code></pre>\n\n<p>Символ _ в перечне названий элементов указывает на то, что соответствующий элемент кортежа пропускается.</p>\n\n<h2 style=\"text-align:center;\"><strong>Декомпозиция </strong> в pattern matching</h2>\n\n<p>При декомпозиции кортежа в альтернативе нужно указать целевые имена значений для всех элементов кортежа в круглых скобках:</p>\n\n<pre><code class=\"language-scala\">val data = (\"Alice\", 25)\n\n// Полная декомпозиция\ndata match {\n  case (name, age) =&gt; println(s\"Person: $name, Age: $age\")\n}\n\n// Частичная декомпозиция\ndata match {\n  case (name, _) =&gt; println(s\"Person: $name\")\n}\n\n// С проверкой на типы элементов\ndata match {\n  case (name: String, age: Int) =&gt; println(s\"Person: $name, Age: $age\")\n}</code></pre>\n\n<p>Если необходимы и элементы кортежа и сам кортеж, то  нужно дополнительно весь кортеж связать с именем, используя оператор <code>@</code>:</p>\n\n<pre><code class=\"language-scala\">val point = (10, 20)\n\npoint match {\n  case tuple @ (x, y) =&gt; \n    println(s\"Coordinates: $x, $y\")\n    println(s\"Full tuple: $tuple\")\n}</code></pre>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2025-12-20T22:21:30.1165724"
+}
