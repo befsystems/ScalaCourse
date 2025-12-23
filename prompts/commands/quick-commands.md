@@ -5,10 +5,20 @@
 Активация роли архитектора промптов:
 
 ```
-@prompt-architect: Используй роль из prompts/agents/prompt-architect-activation.md
+@prompt-architect: Используй роль из prompts/commands/prompt-architect-activation.md
+```
+
+## @prompt-create
+
+Активация режима создания промптов:
+
+```
+@prompt-create: Используй роль из prompts/commands/prompt-creating.md
 ```
 
 ## Альтернативные короткие команды
+
+**Для @prompt-architect:**
 
 ```
 Переключись в режим архитектора промптов
@@ -16,6 +26,16 @@
 
 ```
 Режим: архитектор промптов
+```
+
+**Для @prompt-create:**
+
+```
+Переключись в режим создания промптов
+```
+
+```
+Режим: создание промптов
 ```
 
 ---
@@ -51,6 +71,7 @@
 ## Дополнительные роли
 
 ```
+@prompt-create: [создание и редактирование промптов]
 @lesson-writer: [автор уроков]
 @exercise-creator: [создатель упражнений]
 @code-reviewer: [ревьюер кода]
