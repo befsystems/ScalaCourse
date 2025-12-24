@@ -54,7 +54,6 @@ content/      → Результаты работы
 ### Системы управления
 - [`requirements/STRUCTURE.md`](requirements/STRUCTURE.md) - бизнес-требования
 - [`research/STRUCTURE.md`](research/STRUCTURE.md) - исследования
-- [`prompts/STRUCTURE.md`](prompts/STRUCTURE.md) - модульная система промптов
 - [`plans/STRUCTURE.md`](plans/STRUCTURE.md) - система планирования
 - [`tasks/STRUCTURE.md`](tasks/STRUCTURE.md) - Kanban-система задач
 
