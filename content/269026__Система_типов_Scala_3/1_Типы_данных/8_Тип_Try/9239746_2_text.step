@@ -1,0 +1,21 @@
+{
+  "step_id" : 9239746,
+  "lesson_id" : 2151059,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:24.1492088"
+}

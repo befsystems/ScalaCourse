@@ -1,0 +1,47 @@
+{
+  "step_id" : 9239420,
+  "lesson_id" : 2141033,
+  "position" : 11,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Реализуйте функции для безопасного извлечения вложенных данных.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "case class Address(city: Option[String], street: Option[String])\ncase class Company(name: String, address: Option[Address])\ncase class Person(name: String, company: Option[Company])\n\ndef getPersonCity(person: Person): Option[String] = ???\n\ndef getFullLocation(person: Person): String = ???\n// Формат: \"Name работает в Company, City, Street\"\n// Если чего-то нет, пропускаем эту часть"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 51
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Person(Alice,Some(Company(TechCorp,Some(Address(Some(Moscow),Some(Tverskaya))))))",
+          "Some(Moscow)\nAlice работает в TechCorp, Moscow, Tverskaya"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:34.6272776"
+}

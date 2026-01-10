@@ -1,0 +1,21 @@
+{
+  "step_id" : 6066871,
+  "lesson_id" : 1247175,
+  "position" : 4,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Обратная функция</h1>\n\n<p><strong>Обратная функция</strong> — это такая функция, которая \"отменяет\" действие другой функции. Если у нас есть функция <em><code>f</code></em>, которая преобразует элемент <em><code>x</code></em> в элемент <em><code>y</code></em> (то есть <span class=\"math-tex\">\\(f(x)=y\\)</span>), то <strong>обратная функция</strong> <span class=\"math-tex\">\\(f^{-1}\\)</span> преобразует <em><code>y</code></em> обратно в <em><code>x</code></em>, то есть <span class=\"math-tex\">\\(f^{-1}(y) = x\\)</span>.</p>\n\n<p>Говоря более формально, функция <em><code>f</code></em> имеет обратную функцию <span class=\"math-tex\">\\(f^{-1}\\)</span>, если для любого <code><em>x</em></code> из области определения <em><code>f</code></em>:</p>\n\n<p style=\"text-align:center;\"><span class=\"math-tex\">\\(f(f^ {−1} (y))=y\\)</span>   и   <span class=\"math-tex\">\\(f ^{−1} (f(x))=x\\)</span></p>\n\n<p>Это означает, что если мы сначала применим функцию <code><em>f</em></code>, а затем её обратную функцию<span class=\"math-tex\">\\(f^{-1}\\)</span>, мы вернёмся к исходному значению. И наоборот: если сначала применить<span class=\"math-tex\">\\(f^{-1}\\)</span>, а затем <code><em>f</em></code>, результатом будет исходное значение.</p>\n\n<h3 style=\"text-align:center;\">Пример обратной функции</h3>\n\n<p>Рассмотрим функцию <span class=\"math-tex\">\\(f(x) = x + 2\\)</span>. Чтобы найти обратную функцию <span class=\"math-tex\">\\(f^{-1}\\)</span>, нам нужно решить уравнение для <code><em>x</em></code>:</p>\n\n<p style=\"text-align:center;\"><span class=\"math-tex\">\\(f(x) = y \\quad \\Rightarrow \\quad x + 2 = y \\quad \\Rightarrow \\quad x = y - 2\\)</span></p>\n\n<p>Таким образом, обратная функция <span class=\"math-tex\">\\(f^{-1}(y) = y - 2\\)</span></p>\n\n<h3 style=\"text-align:center;\">Свойства</h3>\n\n<ol>\n\t<li>\n\t<p>Функция может не иметь обратной функции.</p>\n\t</li>\n\t<li>\n\t<p>Функция и обратная функция могут быть взаимообратными.</p>\n\t</li>\n</ol>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2026-01-10T10:17:24.660877"
+}

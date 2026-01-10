@@ -1,0 +1,47 @@
+{
+  "step_id" : 9232328,
+  "lesson_id" : 1912370,
+  "position" : 9,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте <span style=\"color:#ff4363;\">enum Move</span> для команд перемещения по полю. Присуствуют команды с направлением перемещения (имеют количество шагов) и команда остановки.</h3>\n\n<h3>Создайте отдельную функцию <span style=\"color:#ff4363;\">moved</span>, которая меняет  входящий кортеж с координатами, в соотвествии поступившей команде. </h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// Реализуйте Move\n// Up, Down, Left, Right, Stop       \n\n// Функция перемещения по полю\ndef moved(position: (Int, Int), command: Move): (Int, Int) = ???  \n\nval startPosition = (0,0)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 20
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Up(10)\n",
+          "(0,10)\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:27.5755152"
+}

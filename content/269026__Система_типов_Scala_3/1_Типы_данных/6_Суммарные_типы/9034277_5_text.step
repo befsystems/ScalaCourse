@@ -1,0 +1,21 @@
+{
+  "step_id" : 9034277,
+  "lesson_id" : 1912370,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Алгебра суммарных типов</h1>\n\n<h2 style=\"text-align:center;\">Кардинальность типа-суммы</h2>\n\n<p>Кардинальность Sum type вычисляется как сумма кардинальностей его альтернатив:</p>\n\n<p><strong><code>|T₁ + T₂ + ... + Tₙ| = |T₁| + |T₂| + ... + |Tₙ|</code></strong></p>\n\n<p>Примеры:</p>\n\n<pre><code class=\"language-scala\">enum PaymentMethod {\n  case CreditCard\n  case DebitCard\n  case Cash\n}\n// |PaymentMethod| = 3\n\nenum DeliveryType {\n  case Standard\n  case Express\n}\n// |DeliveryType| = 2\n\n// Комбинированный тип\nenum OrderOption {\n  case Payment(method: PaymentMethod)\n  case Delivery(deliveryType: DeliveryType)\n}\n// |OrderOption| = |PaymentMethod| + |DeliveryType| = 3 + 2 = 5</code></pre>\n\n<h2 style=\"text-align:center;\">Математические свойства типа-суммы</h2>\n\n<p>Sum type обладают алгебраическими свойствами:</p>\n\n<ul>\n\t<li><strong>Коммутативность</strong>: A + B ≅ B + A (изоморфны)</li>\n\t<li><strong>Ассоциативность</strong>: (A + B) + C ≅ A + (B + C)</li>\n\t<li><strong>Нейтральный элемент</strong>: A + Nothing ≅ A</li>\n</ul>\n\n<p>где символ ≅ означает изоморфизм — типы можно однозначно преобразовать друг в друга.</p>\n\n<h3>Коммутативность: A + B ≅ B + A</h3>\n\n<pre><code class=\"language-scala\">enum OrderAB {\n  case A\n  case B\n}\n\nenum OrderBA {\n  case B\n  case A\n}\n\n// Эти типы изоморфны, хотя порядок вариантов различается\ndef abToBa(ab: OrderAB): OrderBA = ab match {\n  case OrderAB.A =&gt; OrderBA.A\n  case OrderAB.B =&gt; OrderBA.B\n}\n\ndef baToAb(ba: OrderBA): OrderAB = ba match {\n  case OrderBA.A =&gt; OrderAB.A\n  case OrderBA.B =&gt; OrderAB.B\n}\n</code></pre>\n\n<h3>Ассоциативность: (A + B) + C ≅ A + (B + C) </h3>\n\n<pre><code class=\"language-scala\">// (Color + Size) + Priority\nenum ColorOrSize {\n  case Red\n  case Green\n  case Small\n  case Large\n}\n\nenum LeftAssoc {\n  case ColorSize(cs: ColorOrSize)\n  case High\n  case Low\n}\n\n// Color + (Size + Priority)\nenum SizeOrPriority {\n  case Small\n  case Large\n  case High\n  case Low\n}\n\nenum RightAssoc {\n  case Red\n  case Green\n  case SizePriority(sp: SizeOrPriority)\n}\n\n// Оба типа имеют одинаковую кардинальность и изоморфны\n// |LeftAssoc| = |ColorOrSize| + |Priority| = 4 + 2 = 6\n// |RightAssoc| = |Color| + |SizeOrPriority| = 2 + 4 = 6\n\n// Независимо от группировки, получаем одинаковое множество значений\n</code></pre>\n\n<h3>Нейтральный элемент: A + Nothing ≅ A </h3>\n\n<pre><code class=\"language-scala\">enum Response {\n  case Success(value: String)\n  // Nothing здесь не добавляет новых возможных значений, так как Nothing не имеет значений\n}\n\n// Эквивалентно просто:\nenum SimpleResponse {\n  case Success(value: String)\n}</code></pre>\n\n<p> \n</p><ul>\n</ul>\n<p></p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:27.5700593"
+}

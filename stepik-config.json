@@ -1,0 +1,20 @@
+{
+  "exportPath": "C:/Work/ScalaCourse/content",
+  "description": "Конфигурация для работы с курсами Stepik. ID курсов используются для загрузки и синхронизации контента.",
+  "courses": [
+    {
+      "courseId": 195883,
+      "courseName": "Функциональная Scala 3 для начинающих",
+      "lastExport": "2026-01-10",
+      "sections": 6,
+      "steps": 267
+    },
+    {
+      "courseId": 269026,
+      "courseName": "Система типов Scala 3",
+      "lastExport": "2026-01-10",
+      "sections": 2,
+      "steps": 130
+    }
+  ]
+}

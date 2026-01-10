@@ -1,0 +1,47 @@
+{
+  "step_id" : 5375306,
+  "lesson_id" : 1228704,
+  "position" : 6,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте новый кортеж из существующего используя только операции <strong>drop и </strong>*:</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val address = (\"USA\",\"Anytown\",\"NY 12345\",\"Main Street\",123)\nval recipient = \"Anna Johnson\"    \n\n// В кортеже нужны значения \"Anna Johnson\", \"Main Street\", 123    \n\nval res = // Здесь должна быть реализация"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "(Anna Johnson,Main Street,123)\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:36.2381596"
+}

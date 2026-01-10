@@ -33,3 +33,18 @@ metals.sbt
 *.tmp
 *.swp
 *~
+
+# Indexing state (temporary, should not be committed)
+indexes/.indexing-state.json
+
+# Unwanted generated scripts (should not be created)
+indexes/*.py
+indexes/*.js
+indexes/*.sh
+indexes/course_metadata.json
+
+# Claude Code hooks
+.claude/bin/
+.claude/hooks/errors.log
+.claude/hooks/*.bak
+research/agent-sessions/*.bak

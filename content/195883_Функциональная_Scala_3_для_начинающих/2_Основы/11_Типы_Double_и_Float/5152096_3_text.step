@@ -1,0 +1,21 @@
+{
+  "step_id" : 5152096,
+  "lesson_id" : 1230060,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Тип Float</h1>\n\n<p>Тип <code>Float </code>также является моделью вещественного числа, он аналогичен типу <code>Double </code>за исключением точности представления числа. Точность <code>Float</code> меньше, чем у типа <code>Double</code>, и составляет примерно 7 значащих цифр.</p>\n\n<p>Тип <code>Float </code>может быть полезен в ситуациях, где ограниченная точность достаточна, а требуется экономия памяти по сравнению с <code>Double</code>. Однако, в большинстве случаев <code>Double </code>предпочтителен.</p>\n\n<p><code>Float.MaxValue:  3.4028235E38</code><br>\n<code>Float.MinValue: -3.4028235E38</code><br>\n<code>Float.MinPositiveValue: 1.4E-45</code></p>\n\n<h2 style=\"text-align:center;\">Литералы типа Float</h2>\n\n<p><strong>Обычный:</strong> <code>3.14F</code> или <code>-3.14F</code></p>\n\n<p><strong>Экспоненциальный:</strong> <code>2.5e6F</code> или <code>-2.5E6F</code> или <code>-2.5E-6F</code></p>\n\n<p><strong>Без дробной части:</strong> <code>2F</code> или <code>2f</code></p>\n\n<p> </p>\n\n<p>Особенности типа <code>Float </code>аналогичны типу <code>Double</code>.</p>\n\n<div class=\"notranslate\" style=\"\"> </div>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2026-01-10T10:17:05.6100257"
+}

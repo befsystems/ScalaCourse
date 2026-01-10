@@ -1,0 +1,47 @@
+{
+  "step_id" : 5379005,
+  "lesson_id" : 1228704,
+  "position" : 5,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте кортеж двух элементов, используя операцию<strong><code> -&gt;</code></strong></h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val street = \"Main Street\" \nval building = 123    \n\nval res = // здесь создать кортеж из выше указанных значений"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "(Main Street,123) \n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:36.2352065"
+}

@@ -1,0 +1,47 @@
+{
+  "step_id" : 9232102,
+  "lesson_id" : 1912370,
+  "position" : 8,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Создайте <span style=\"color:#ff4363;\">enum Length</span> для работы с длинами в разных единицах измерения. Реализуйте <span style=\"color:#ff4363;\">конверсии</span> между длинами и отдельную функцию <span style=\"color:#ff4363;\"><code>compare</code></span> для сравнения длин. Обратите внимание на проблему потери точности.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// Реализуйте Length\n// Meters, Kilometers, Centimeters     \n\n/**\n   * Сравнение длин \n   * Возвращает:\n   *  -1, если a < b\n   *  0, если a == b\n   *  1, если a > b\n   */    \ndef compare(a: Length, b: Length): Int = ???    \n\n\n// Пример использования Length\nval meterLength = Length.Meters(99)  \nval kilometerLength = meterLength.toKilometers\nval centimeterLength = meterLength.toCentimeters\nval centimeterLength2 = Length.Centimeters(99)\nval comparisonRes = compare(kilometerLength, centimeterLength2)  //  1"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 19
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "Meters(99) Centimeters(99)\n",
+          "1\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:27.5745232"
+}

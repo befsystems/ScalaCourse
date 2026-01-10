@@ -1,0 +1,21 @@
+{
+  "step_id" : 5103086,
+  "lesson_id" : 1229275,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Тип данных Boolean</h1>\n\n<p>Тип <strong>Boolean </strong>представляет логический тип данных, который может принимать два значения: <code>true</code> (истина) или <code>false</code> (ложь). Логические значения используются для выполнения условных операций и принятия решений в программе.</p>\n\n<p>Тип <code>Boolean</code> обеспечивает булеву алгебру и работу с логическими выражениями.</p>\n\n<p>Тип <code>Boolean</code> имеет два литерала: <code>true</code> и <code>false</code>. Литералы - это явные значения типа, которые можно использовать в коде программы.</p>\n\n<p>При наименовании значений типа <code>Boolean</code> принято использовать приставку <strong>is</strong> или <strong>has</strong>, чтобы значение как бы отвечало на вопрос.</p>\n\n<p>Пример:</p>\n\n<pre><code class=\"language-scala\">val isCorrect = true // это правильно?\nval hasSense = false // имеет смысл?</code></pre>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2026-01-10T10:17:09.5916987"
+}

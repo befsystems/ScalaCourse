@@ -1,0 +1,47 @@
+{
+  "step_id" : 5478417,
+  "lesson_id" : 1255297,
+  "position" : 3,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Добавьте к вызову функции третий аргумент в виде функционального выражения, чтобы функция выполняла операцию сложения, если первый аргумент отрицательный, или операцию вычитания, если первый аргумент положительный или ноль.</h3>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "// Определение функции с двумя группами параметров\ndef calculate(param1: Int, param2: Int)(param3: (Int, Int) => Int): Int = \n  param3(param1,param2)\n\n// Вызов функции\nval res = calculate(arg1, arg2) // еще нужен третий аргумент с функциональным типом"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 4
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 2
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "8 11\n",
+          "-3\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 195883,
+  "course_name" : "Функциональная Scala 3 для начинающих",
+  "exported_at" : "2026-01-10T10:17:12.7269425"
+}

@@ -1,0 +1,47 @@
+{
+  "step_id" : 9168097,
+  "lesson_id" : 2138956,
+  "position" : 7,
+  "type" : "unknown",
+  "block" : {
+    "name" : "code",
+    "text" : "<h3>Напишите функцию <code>transposeMatrix</code>, которая транспонирует матрицу (без использования встроенного <code>transpose</code>). </h3>\n\n<h3>При транспонировании<span style=\"color:#61afef;\">:</span></h3>\n\n<ul>\n\t<li>\n\t<h3>Строки становятся столбцами</h3>\n\t</li>\n\t<li>\n\t<h3>Столбцы становятся строками</h3>\n\t</li>\n</ul>",
+    "video" : null,
+    "options" : {
+      "execution_time_limit" : 5,
+      "execution_memory_limit" : 256,
+      "limits" : {
+        "scala3" : {
+          "time" : 9,
+          "memory" : 256
+        }
+      },
+      "code_templates" : {
+        "scala3" : "val matrix = Array(\n      Array(1, 2),\n      Array(3, 4),\n      Array(5, 6),\n      Array(7, 8)\n    )    \n\ndef transposeMatrix(matrix: Array[Array[Int]]): Array[Array[Int]] = ???\n\nval matrixRes = transposeMatrix(matrix)"
+      },
+      "code_templates_header_lines_count" : {
+        "scala3" : 1
+      },
+      "code_templates_footer_lines_count" : {
+        "scala3" : 7
+      },
+      "code_templates_options" : {
+        
+      },
+      "samples" : [
+        [
+          "\n",
+          "1357\n2468\n"
+        ]
+      ],
+      "is_run_user_code_allowed" : true
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "code",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:18.7649305"
+}

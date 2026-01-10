@@ -1,0 +1,21 @@
+{
+  "step_id" : 8998625,
+  "lesson_id" : 2105217,
+  "position" : 2,
+  "type" : "unknown",
+  "block" : {
+    "name" : "text",
+    "text" : "<h1 style=\"text-align:center;\">Базовые операции Case Class</h1>\n\n<p>Конструкция уже имеет в своем составе необходимые <strong>базовые </strong>операции типа (создание, декомпозиция, трансформация, сравнение). Обычно их достаточно для полноценной работы с такими типами данных.</p>\n\n<pre><code class=\"language-scala\">case class Point(x: Double, y: Double) // Определение\n\nval p1 = Point(3.0, 4.0)               // Создание\nval Point(x, y) = p1                   // Деструктуризация\nval p2 = p1.copy(x = 5.0)              // Трансформация\nval equal = p1 == Point(3.0, 4.0)      // Сравнение по значению\n</code></pre>\n\n<h3>1. Создание значения типа</h3>\n\n<pre><code class=\"language-scala\">case class User(id: Long, name: String)\n\nval user = User(1, \"Alice\")  // Вызов конструктора типа с аргументами для создания значения\n</code></pre>\n\n<p><strong>Философия операции:</strong> \"создание значения\" = \"вызов конструктора типа\". Похоже на вызов специальной функции. И да такая функция имеется, называется apply. Но она скрыта, для красоты.</p>\n\n<pre><code class=\"language-scala\">val user = User.apply(1, \"Alice\") // apply - функция-конструктор значения типа.</code></pre>\n\n<h3>2. Операция <code>copy</code> — неизменяемые трансформации</h3>\n\n<pre><code class=\"language-scala\">case class Person(name: String, age: Int, city: String)\n\nval alice = Person(\"Alice\", 30, \"New York\")\n\n// Создаем измененную копию\nval older: Person = alice.copy(age = 31)\nval moved: Person = alice.copy(city = \"Boston\")\nval renamed: Person = alice.copy(name = \"Alicia\", age = 31)\n\n// Оригинал не изменился\nprintln(alice)  // Person(Alice,30,New York)\nprintln(older)  // Person(Alice,31,New York)\n</code></pre>\n\n<p><strong>Философия операции:</strong> Данные неизменяемы. Чтобы \"изменить\" значение, мы создаем новое значение с измененными полями.</p>\n\n<h3>3. Структурное равенство </h3>\n\n<p><strong>Структурное равенство</strong> — это сравнение объектов по их содержимому (значениям полей), а не по ссылке в памяти. </p>\n\n<pre><code class=\"language-scala\">case class Point(x: Int, y: Int)\n\nval p1 = Point(10, 20)\nval p2 = Point(10, 20)\nval p3 = Point(10, 30)\n\nprintln(p1 == p2)  // true  - одинаковые значения\nprintln(p1 == p3)  // false - разные значения\nprintln(p1 eq p2)  // false - разные объекты в памяти\n</code></pre>\n\n<p><strong>Философия операции:</strong> Равенство определяется значением полей, а не местом в памяти. Два case class с одинаковыми полями — это <strong>одно и то же значение</strong>, как числа: <code>5 == 5</code>.</p>\n\n<h3>4. Операция <code>toString</code>  —  полное человекочитаемое представление значения</h3>\n\n<pre><code class=\"language-scala\">case class User(id: Long, name: String, email: String)\n\nval user = User(1, \"Alice\", \"alice@example.com\")\n\nprintln(user.toString) // User(1,Alice,alice@example.com)\nprintln(user) // в данном случае можно явно не указывать toString</code></pre>\n\n<p><strong>Философия операции:</strong> Представить значение в читаемом виде для отладки, логирования, вывод в REPL. </p>\n\n<h3>5. Декомпозиция значения</h3>\n\n<pre><code class=\"language-scala\">case class Person(name: String, age: Int)\n\nval person = Person(\"Alice\", 30) // Создание значения из элемантов\n\nval Person(n, a) = person        // Декомпозиция значения на элементы\nprintln(s\"Name: $n, Age: $a\")\n\n</code></pre>\n\n<p><strong>Философия:</strong> Case class — это контейнер данных, который можно собирать и разбирать. Композиция и декомпозиция значения симметричны. За операцию декомпозиции отвечает операция<code> unapply</code>, которая вызываться неявно.</p>",
+    "video" : null,
+    "options" : {
+      
+    },
+    "subtitle_files" : [
+    ],
+    "is_deprecated" : false
+  },
+  "name" : "text",
+  "course_id" : 269026,
+  "course_name" : " Система типов Scala 3",
+  "exported_at" : "2026-01-10T10:36:16.6978396"
+}
